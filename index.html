@@ -128,7 +128,8 @@ h4{margin:0;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:v
 .about{display:grid;grid-template-columns:.85fr 1.15fr;gap:24px}
 .about-photo{border-radius:28px;overflow:hidden;min-height:460px}
 .about-photo img{width:100%;height:100%;object-fit:cover}
-.about-text{background:var(--card);border-radius:28px;padding:40px 38px;display:flex;flex-direction:column;gap:16px}
+.about-text{background:var(--card);border-radius:28px;padding:40px 38px;display:flex;flex-direction:column;justify-content:center;gap:18px}
+.about-text p{font-size:18px;line-height:1.7}
 .about-text p{margin:0}
 .quotes{display:flex;flex-direction:column;gap:8px;padding:6px 0 6px 18px;border-left:2px solid var(--gold)}
 .quotes span{font-family:'Great Vibes',cursive;font-size:30px;line-height:1.15;color:var(--bordo)}
@@ -184,7 +185,6 @@ footer a{color:var(--bordo);font-weight:600;text-decoration:none}
       <a href="#konsultacii">Консультации</a>
       <a href="#zapis">Запись</a>
       <a href="#obo-mne">Обо мне</a>
-      <a href="#voprosy">Вопросы</a>
     </nav>
     <a class="btn btn-sm" href="https://t.me/Lidia_Shatulina14" target="_blank" rel="noopener">Telegram</a>
   </div>
@@ -217,8 +217,7 @@ footer a{color:var(--bordo);font-weight:600;text-decoration:none}
 <section id="konsultacii">
   <div class="wrap">
     <div class="head">
-      <h2><span class="caps">Мои</span><span class="script">консультации</span></h2>
-      <p>Выберите тему. Нажмите «Подробнее», чтобы прочитать, с чем помогает разбор, формат и срок.</p>
+      <h2><span class="caps">С каким вопросом</span><span class="script">можно прийти</span></h2>
     </div>
     <div class="svc-list">
 <article class="svc" id="individ">
@@ -360,14 +359,14 @@ footer a{color:var(--bordo);font-weight:600;text-decoration:none}
 <section id="zapis">
   <div class="wrap">
     <div class="head">
-      <h2><span class="caps">Как проходит</span><span class="script">запись</span></h2>
+      <h2><span class="caps">Как</span><span class="script">записаться</span></h2>
     </div>
     <div class="steps-wrap">
       <div class="desk"><img src="desk.jpg" alt="Рабочий стол: расчёт матрицы, блокнот и кофе" loading="lazy"></div>
       <div class="steps">
-        <div class="step"><b>1</b><div><h3>Напишите мне в Telegram</h3><p>Дату рождения и ваш запрос в нескольких предложениях: что происходит, что уже пробовали, что беспокоит.</p></div></div>
-        <div class="step"><b>2</b><div><h3>Выберем формат</h3><p>Я отвечу, подскажу подходящую консультацию и пришлю реквизиты для оплаты.</p></div></div>
-        <div class="step"><b>3</b><div><h3>Получите разбор</h3><p>После оплаты готовлю разбор в указанный срок или назначаем созвон.</p></div></div>
+        <div class="step"><b>1</b><div><h3>Что написать в первом сообщении?</h3><p>Пришлите в Telegram название консультации и пару предложений о том, что хотите разобрать. Для персонального разбора добавьте дату рождения.</p></div></div>
+        <div class="step"><b>2</b><div><h3>Как проходит оплата?</h3><p>Разовые консультации и прогнозы я готовлю по полной предоплате. Для сопровождения сначала договариваемся о знакомстве на созвоне.</p></div></div>
+        <div class="step"><b>3</b><div><h3>Если я пока не знаю, какой формат выбрать?</h3><p>Расскажите, что вас беспокоит. Я подскажу, какой формат подойдёт под ваш вопрос.</p></div></div>
         <a class="btn" href="https://t.me/Lidia_Shatulina14" target="_blank" rel="noopener">Написать @Lidia_Shatulina14</a>
       </div>
     </div>
@@ -380,30 +379,10 @@ footer a{color:var(--bordo);font-weight:600;text-decoration:none}
       <div class="about-photo"><img src="about.jpg" alt="Лидия Шатулина" loading="lazy"></div>
       <div class="about-text">
         <span class="kicker">Обо мне</span>
-        <h2 style="margin:0"><span class="caps" style="font-size:clamp(44px,5.6vw,72px);display:block">Давайте</span><span class="script" style="font-size:clamp(40px,5vw,62px);margin-top:-.26em;padding-left:.6em">знакомиться</span></h2>
-        <p>Меня зовут Лидия Шатулина. Нумеролог, прогнозист, жена и мама двоих детей.</p>
-        <p>В нумерологию я пришла, когда была в декрете с первой дочерью. За четыре года практики особенно полюбила вопросы о деньгах и реализации:</p>
-        <div class="quotes"><span>«Я столько всего умею, но за что мне взяться?»</span><span>«Какие у меня сильные стороны?»</span><span>«Почему я боюсь показать свою работу и назвать цену?»</span><span>«А что меня ожидает в следующем году?»</span></div>
-        <p>Перед разбором я сначала слушаю человека: что происходит в его жизни, что он уже пробовал, что сейчас волнует. Затем объясняю нумерологические трактовки применительно к его вопросу.</p>
+        <h2 style="margin:0"><span class="caps" style="font-size:clamp(56px,7vw,88px);display:block">Я</span><span class="script" style="font-size:clamp(52px,6.4vw,80px);margin-top:-.3em;padding-left:.5em">Лидия</span></h2>
+        <p>В нумерологию я пришла после рождения дочери Софии, когда сама пыталась понять, чем хочу заниматься после декрета. Сейчас в моих разборах много вопросов про деньги и предназначение. Я объясняю трактовки простыми словами и предлагаю сверять их с вашим опытом.</p>
         <div class="actions"><a class="btn btn-ghost btn-sm" href="https://instagram.com/lidia.shatulina" target="_blank" rel="noopener">Мой Instagram</a></div>
       </div>
-    </div>
-  </div>
-</section>
-
-<section id="voprosy">
-  <div class="wrap">
-    <div class="head"><h2><span class="caps">Частые</span><span class="script">вопросы</span></h2></div>
-    <div class="faq"><details class="faq-item"><summary>Как записаться на консультацию?<span class="plus" aria-hidden="true"></span></summary><p>Напишите мне в Telegram @Lidia_Shatulina14: дату рождения и ваш запрос в нескольких предложениях. Я отвечу, подскажу подходящий формат и пришлю реквизиты для оплаты.</p></details><details class="faq-item"><summary>В каком формате проходит консультация?<span class="plus" aria-hidden="true"></span></summary><p>Большинство разборов — аудиосообщения и текстовые пояснения, их можно переслушивать. «Помощь нумерологам» и сопровождение проходят по видеосвязи.</p></details><details class="faq-item"><summary>Сколько ждать разбор?<span class="plus" aria-hidden="true"></span></summary><p>Консультации — 3–5 дней после оплаты, прогноз — 1–2 дня. Созвон для нумерологов назначаем в течение 1–2 дней.</p></details></div>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <div class="cta">
-      <span class="caps">Готовы</span><span class="script">начать?</span>
-      <p>Напишите мне в Telegram дату рождения и ваш запрос — помогу выбрать подходящую консультацию.</p>
-      <a class="btn btn-light" href="https://t.me/Lidia_Shatulina14" target="_blank" rel="noopener">Написать в Telegram</a>
     </div>
   </div>
 </section>
@@ -412,7 +391,7 @@ footer a{color:var(--bordo);font-weight:600;text-decoration:none}
   <div class="wrap">
     <div>
       <div>© 2026 Лидия Шатулина · нумеролог</div>
-      <p class="disclaimer">Консультации — нумерологическая интерпретация, а не медицинская, юридическая или финансовая услуга. Информация на странице не является публичной офертой. Условия закреплены в платёжной форме и договоре.</p>
+      <p class="disclaimer">Информация на странице не является публичной офертой. Условия закреплены в договоре.</p>
     </div>
     <div class="foot-links">
       <a href="https://t.me/Lidia_Shatulina14" target="_blank" rel="noopener">Telegram</a>
